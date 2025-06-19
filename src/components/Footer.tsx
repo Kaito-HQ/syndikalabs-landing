@@ -1,19 +1,18 @@
 
 import React from "react";
+
 const Footer = () => {
   return <footer className="w-full bg-white py-0">
       <div className="section-container">
         <p className="text-center text-gray-600 text-sm">
-          This template takes inspiration from{" "}
-          <a href="https://x.com/BrettFromDJ" target="_blank" rel="noopener noreferrer" className="text-pulse-500 hover:underline">
-            DesignJoy's
+          Built with AI-powered innovation by{" "}
+          <a href="#" className="text-pulse-500 hover:underline">
+            Syndika Labs
           </a>{" "}
-          BUILD WARS design, built entirely with Lovable by{" "}
-          <a href="https://x.com/rezaul_arif" target="_blank" rel="noopener noreferrer" className="text-pulse-500 hover:underline">
-            Rezaul Arif
-          </a>
+          - Pioneering the intersection of artificial intelligence and Web3 technology
         </p>
       </div>
     </footer>;
 };
+
 export default Footer;
