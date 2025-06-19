@@ -39,16 +39,16 @@ const DetailsSection = () => {
   return <section id="details" className="w-full bg-white py-0">
       <div className="container px-4 sm:px-6 lg:px-8 mx-auto">
         <div className="grid grid-cols-1 gap-6 md:gap-8 lg:grid-cols-2">
-          {/* Left Card - The Details */}
+          {/* Left Card - Our Focus Areas */}
           <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-elegant">
-            {/* Card Header with background image instead of gradient */}
+            {/* Card Header with background image */}
             <div className="relative h-48 sm:h-64 p-6 sm:p-8 flex items-end" style={{
             backgroundImage: "url('/background-section3.png')",
             backgroundSize: "cover",
             backgroundPosition: "center"
           }}>
               <h2 className="text-2xl sm:text-3xl font-display text-white font-bold">
-                The details
+                Our Focus Areas
               </h2>
             </div>
             
@@ -58,7 +58,7 @@ const DetailsSection = () => {
             border: "1px solid #ECECEC"
           }}>
               <h3 className="text-lg sm:text-xl font-display mb-6 sm:mb-8">
-                Precision engineering meets adaptive intelligence
+                Research & development at the intersection of AI and Web3
               </h3>
 
               <div className="space-y-4 sm:space-y-6">
@@ -70,7 +70,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Height:</span> 5'8"
+                      <span className="font-semibold text-base">Decentralized AI:</span> Autonomous agents on blockchain
                     </div>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Capacity:</span> 55lbs
+                      <span className="font-semibold text-base">Smart Contracts:</span> ML-powered protocol optimization
                     </div>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Weight:</span> 140lbs
+                      <span className="font-semibold text-base">DeFi Intelligence:</span> Predictive market analysis
                     </div>
                   </div>
                 </div>
@@ -109,7 +109,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Uptime:</span> 6hr
+                      <span className="font-semibold text-base">Privacy Tech:</span> Zero-knowledge AI computation
                     </div>
                   </div>
                 </div>
@@ -122,7 +122,7 @@ const DetailsSection = () => {
                   </div>
                   <div className="flex-1">
                     <div className="p-3 rounded-lg bg-gray-50/80 backdrop-blur-sm border border-gray-100">
-                      <span className="font-semibold text-base">Movement:</span> 1.5M/S
+                      <span className="font-semibold text-base">Research Papers:</span> Open-source contributions
                     </div>
                   </div>
                 </div>
@@ -132,17 +132,17 @@ const DetailsSection = () => {
 
           {/* Right Card - Contact Form */}
           <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-elegant">
-            {/* Card Header with background image instead of gradient */}
+            {/* Card Header with background image */}
             <div className="relative h-48 sm:h-64 p-6 sm:p-8 flex flex-col items-start" style={{
             backgroundImage: "url('/background-section1.png')",
             backgroundSize: "cover",
             backgroundPosition: "center"
           }}>
               <div className="inline-block px-4 sm:px-6 py-2 border border-white text-white rounded-full text-xs mb-4">
-                Request a demo
+                Join our research
               </div>
               <h2 className="text-2xl sm:text-3xl font-display text-white font-bold mt-auto">
-                See it for yourself
+                Collaborate with us
               </h2>
             </div>
             
@@ -182,7 +182,7 @@ const DetailsSection = () => {
                     name="company" 
                     value={formData.company} 
                     onChange={handleChange} 
-                    placeholder="Company (optional)" 
+                    placeholder="Organization (optional)" 
                     className="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-pulse-500 focus:border-transparent" 
                   />
                 </div>
@@ -192,7 +192,7 @@ const DetailsSection = () => {
                     type="submit" 
                     className="w-full px-6 py-3 bg-pulse-500 hover:bg-pulse-600 text-white font-medium rounded-full transition-colors duration-300"
                   >
-                    Request access
+                    Get in touch
                   </button>
                 </div>
               </form>
