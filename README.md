@@ -1,69 +1,56 @@
-# Welcome to your Lovable project
+<div align="center">
+  <img src="public/syndika-p.png" alt="Syndika Labs Homepage Screenshot" width="600" />
+  <br/>
+  <em>Syndika Labs Homepage</em>
+</div>
 
-## Project info
+# Syndika Labs Homepage
 
-**URL**: https://lovable.dev/projects/35d72d2e-6e25-40e5-9b0c-c0d1a7c1b727
+Welcome to the official repository for the Syndika Labs homepage.
 
-## How can I edit this code?
+## About Syndika Labs
 
-There are several ways of editing your application.
+Syndika Labs is dedicated to building innovative products at the intersection of Artificial Intelligence and Blockchain technology. Our mission is to drive the future of decentralized and intelligent solutions, empowering individuals and organizations with cutting-edge tools and platforms.
 
-**Use Lovable**
+## Features
+- Modern, responsive homepage for Syndika Labs
+- Showcases our AI and blockchain products
+- Fast, optimized, and easy to maintain
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/35d72d2e-6e25-40e5-9b0c-c0d1a7c1b727) and start prompting.
+## Tech Stack
+- **Vite** – Lightning-fast frontend tooling
+- **React** – Component-based UI library
+- **TypeScript** – Typed JavaScript for reliability
+- **Tailwind CSS** – Utility-first CSS framework
+- **shadcn-ui** – Accessible, customizable UI components
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+To run this project locally, follow these steps:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. **Clone the repository**
+   ```sh
+   git clone <REPO_URL>
+   cd syndikalabs-landing
+   ```
+2. **Install dependencies**
+   ```sh
+   npm install
+   ```
+3. **Start the development server**
+   ```sh
+   npm run dev
+   ```
+4. Open your browser and visit the local server URL (usually `http://localhost:5173`).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Contributing
 
-Follow these steps:
+We welcome contributions! Please open an issue or submit a pull request for any improvements or suggestions.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## License
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Contact
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/35d72d2e-6e25-40e5-9b0c-c0d1a7c1b727) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+For more information, visit our website or reach out to us at [contact@syndikalabs.com](mailto:contact@syndikalabs.com).
